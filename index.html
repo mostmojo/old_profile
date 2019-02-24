@@ -1,1 +1,50 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Jacob Papageorgiou</title>
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
+  <link rel="stylesheet" href="./src/styles.css" />
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#333333">
+</head>
+<body class="bg-black-05 sans-serif pa1">
+
+  <main id="app">
+    <section class="mw5 center br3 mt4 pa3 ba b--black-10 bg-white">
+      <header class="tc">
+        <img
+          class="br-100 w4 h4 pa1 ba b--black-10"
+          src='./src/assets/images/avatar.jpg'
+          alt=''
+          aria-hidden="true"
+        />
+        <h1 class="f3">Jacob Papageorgiou</h1>
+      </header>
+      <hr class="ba bw1 mw4 b--black-10" />
+      <article class="pa1 lh-copy f6 black-70"><p>👋 I'm a fullstack Ruby on Rails developer and self taught designer.</p><p>I prefer frontend development, UX/UI design and OOP.</p><p>When I'm not chasing divs, pixels & semicolons, I like running, songwriting and calisthenics.</p></article>
+    </section>
+
+<!--     <section class="mw6 center tc ph3 mv5">
+      <p class="f6 lh-copy pb4 ma0">Projects I've worked with.</p>
+
+      <div class="flex items-center justify-around" v-cloak>
+        <figure v-for="item in lists" class="w-10 flex-auto mh2 mb2">
+          <img :src=`./assets/companies/${item.label.toLowerCase()}.png` :alt="item.label" aria-hidden="true" />
+          <figcaption class="pv2 f7 silver">{{ item.label }}</figcaption>
+        </figure>
+      </div>
+    </section> -->
+
+    <footer class="tc w-100 pt4 pb3" v-cloak>
+      <a class="link dim mh2 f6 bb black-70" v-for="link in links" :href="link.link" rel="noopener" target="_blank">{{ link.label }}</a>
+      <aside class="mt4 f6 black-70"> {{ copyright }} </aside>
+    </footer>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="./src/index.js"></script>
+</body>
+</html>
