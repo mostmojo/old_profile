@@ -11,6 +11,7 @@
   "author": "Dimitri Kouvdis",
   "license": "ISC",
   "devDependencies": {
+    "gulp-gh-pages": "^0.5.4",
     "runjs": "^4.3.2",
     "serve": "^10.1.1",
     "standard": "^12.0.1",
