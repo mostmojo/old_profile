@@ -26,6 +26,10 @@ const links = [
     label: 'Github',
     link: '//github.com/mostmojo'
   },
+    {
+    label: 'Instagram',
+    link: '//instagram.com/mojodribbles'
+  },
   {
     label: 'Twitter',
     link: '//twitter.com/most_mojo'
