@@ -1,0 +1,20 @@
+{
+  "name": "dkouvdis",
+  "version": "0.0.9",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "serve ./src",
+    "build": "standard && node build.js",
+    "deploy": ". bin/build.sh"
+  },
+  "author": "Dimitri Kouvdis",
+  "license": "ISC",
+  "devDependencies": {
+    "runjs": "^4.3.2",
+    "serve": "^10.1.1",
+    "standard": "^12.0.1",
+    "terser": "^3.13.1"
+  },
+  "dependencies": {}
+}
