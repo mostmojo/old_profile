@@ -27,8 +27,8 @@ const links = [
     link: '//github.com/mostmojo'
   },
   {
-    label: 'Instagram',
-    link: '//instagram.com/mojodribbles'
+    label: 'Dribbble',
+    link: '//dribbble.com/mostmojo'
   },
   {
     label: 'Twitter',
