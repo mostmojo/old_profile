@@ -15,7 +15,7 @@
     "runjs": "^4.4.2",
     "serve": "^10.1.1",
     "standard": "^12.0.1",
-    "terser": "^3.13.1"
+    "terser": "^4.8.1"
   },
   "dependencies": {}
 }
